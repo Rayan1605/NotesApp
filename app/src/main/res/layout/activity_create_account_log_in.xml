@@ -54,7 +54,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email Address"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+
+            />
 
     </LinearLayout>
 </RelativeLayout>
