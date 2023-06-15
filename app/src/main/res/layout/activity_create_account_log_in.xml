@@ -23,8 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/sign_up_icon"
         android:orientation="vertical"
-        android:id = "@+id/hello_text"
-        >
+        android:id = "@+id/hello_text">
 
         <TextView
             android:layout_width="match_parent"
@@ -92,7 +91,7 @@
             android:layout_width="match_parent"
             android:id="@+id/create_account_btn"
             android:layout_height="64dp"
-            android:text="Create Account"
+            android:text="@string/create_account"
             android:layout_marginTop="12dp"
             android:textSize="16sp"
             />
@@ -119,13 +118,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account?"/>
+            android:text="@string/already_have_an_account"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textstyle="bold"
+            android:textStyle="bold"
             android:id="@+id/login_text_view_btn"
-            android:text="Login"/>
+            android:text="@string/login"/>
 
 
 
