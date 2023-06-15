@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +15,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginVertical="32dp"
         android:id = "@+id/sign_up_icon"
-        android:src = "@drawable/sign_up" />
+        android:src = "@drawable/sign_up"
+        android:contentDescription="@string/todo" />
 
     <LinearLayout
         android:layout_width= "match_parent"
@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Create Account"
+            android:text="@string/create_account"
             android:textStyle="bold"
             android:textSize="32sp"
             android:textColor="@color/black" />
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Let's get started!"
+            android:text="@string/let_s_get_started"
             android:textStyle="bold"
             android:textSize="32sp"
             android:textColor="@color/black" />
