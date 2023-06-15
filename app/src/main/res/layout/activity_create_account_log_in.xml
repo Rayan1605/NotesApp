@@ -56,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/email_edit_text"
-            android:hint="Email Address"
+            android:hint="@string/email_address"
             android:textSize="20sp"
             android:background="@drawable/rounded_corner"
             android:padding="16dp"
@@ -68,25 +68,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/password_edit_text"
-            android:hint="Password"
+            android:hint="@string/password"
             android:textSize="20sp"
             android:background="@drawable/rounded_corner"
             android:padding="16dp"
             android:layout_marginTop="12dp"
             android:inputType="textPassword"
-            />
+            android:autofillHints="" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/confirm_password_edit_text"
-            android:hint="Confirm Password"
+            android:hint="@string/confirm_password"
             android:textSize="20sp"
             android:background="@drawable/rounded_corner"
             android:padding="16dp"
             android:layout_marginTop="12dp"
             android:inputType="textPassword"
-            />
+            android:autofillHints="" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
