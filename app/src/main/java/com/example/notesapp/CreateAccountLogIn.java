@@ -74,11 +74,13 @@ public class CreateAccountLogIn extends AppCompatActivity {
                                         finish();
                                     }
                                     else {
-                                        changeInProgress(false);
-                                        finish();
+                                        //Failed to create account
+                                        Toast.makeText(CreateAccountLogIn.this,
+                                                task.getException().getLocalizedMessage(),
+                                                Toast.LENGTH_SHORT).show();
                                     }
                                 }
-                            })
+                            });
     }
 
     void changeInProgress(boolean isInProgress){
