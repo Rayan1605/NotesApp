@@ -65,6 +65,7 @@ public class CreateAccountLogIn extends AppCompatActivity {
                             new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
+                                    changeInProgress(false);
                                     if (task.isSuccessful()){
                                         Toast.makeText(CreateAccountLogIn.this,
                                                 "Account created successfully",
